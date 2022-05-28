@@ -1,4 +1,8 @@
+const mobileMenuBtn = document.querySelector('#mobile-menu-btn');
 const modalCloseBtns = document.querySelectorAll('.modal-close-btn');
+
+const mobileMenu = document.querySelector('#mobile-menu');
+
 
 const modalsWrappers = document.querySelectorAll('.modal-area-bgd');
 const modalContainers = document.querySelectorAll('.modal-area-content');
@@ -9,8 +13,8 @@ const BODY_SCROLL_DISABLE_CLASS = 'body-scroll-disable';
 enableCloseModalOnBgdClick();
 hideModalOnMobileMenuElementsClick();
 
-const modals=[modalContainers,modalsWrappers];
-const buttons=modalCloseBtns;
+const modals=[mobileMenu,modalContainers,modalsWrappers];
+const buttons=[mobileMenuBtn, modalCloseBtns];
 console.log(buttons);
 buttons.forEach((btn, index) => {
     const iconModal = modals[index];
