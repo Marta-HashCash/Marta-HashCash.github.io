@@ -19,7 +19,7 @@ body {
 }
 
 .modal-area-content{
-    visibility: hidden;
+    visibility: visible;
 }
 .btn-accent-btn-mobile{
     visibility: hidden;
@@ -1426,7 +1426,7 @@ body {
     }
 
     /* Mobile menu modal */
-    /*
+    
     .modal-mobile-menu {
         background: #a9abaa;
     }
