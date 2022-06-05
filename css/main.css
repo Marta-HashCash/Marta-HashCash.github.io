@@ -1426,7 +1426,7 @@ body {
     }
 
     /* Mobile menu modal */
-
+    /*
     .modal-mobile-menu {
         background: #a9abaa;
     }
@@ -1466,7 +1466,7 @@ body {
     }
     
     .modal-menu-container {
-        height: 70%;
+        /*height: 70%;*/
         margin: 0;
         justify-content: space-between;
     }
@@ -1507,7 +1507,7 @@ body {
         display: flex;
         flex-direction: column;
     }
-
+    /*
     /*
 
     .mobile-menu-close-btn {
